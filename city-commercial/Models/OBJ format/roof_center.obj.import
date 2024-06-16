@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bjkso0wbhsciy"
+path="res://.godot/imported/roof_center.obj-9f0bf241b3e6cfa95cb567336243335d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/roof_center.obj-9f0bf241b3e6cfa95cb567336243335d.mesh"]
+
+source_file="res://city-commercial/Models/OBJ format/roof_center.obj"
+dest_files=["res://.godot/imported/roof_center.obj-9f0bf241b3e6cfa95cb567336243335d.mesh", "res://.godot/imported/roof_center.obj-9f0bf241b3e6cfa95cb567336243335d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

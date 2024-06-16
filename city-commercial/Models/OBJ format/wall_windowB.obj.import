@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c6ynudde3lkp6"
+path="res://.godot/imported/wall_windowB.obj-8cc9844f38434ad0ed67e8b360f348bb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_windowB.obj-8cc9844f38434ad0ed67e8b360f348bb.mesh"]
+
+source_file="res://city-commercial/Models/OBJ format/wall_windowB.obj"
+dest_files=["res://.godot/imported/wall_windowB.obj-8cc9844f38434ad0ed67e8b360f348bb.mesh", "res://.godot/imported/wall_windowB.obj-8cc9844f38434ad0ed67e8b360f348bb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

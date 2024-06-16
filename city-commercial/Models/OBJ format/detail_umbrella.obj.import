@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://domatdign7hj6"
+path="res://.godot/imported/detail_umbrella.obj-2a6c0da06bcfe635c3359593bcad1410.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detail_umbrella.obj-2a6c0da06bcfe635c3359593bcad1410.mesh"]
+
+source_file="res://city-commercial/Models/OBJ format/detail_umbrella.obj"
+dest_files=["res://.godot/imported/detail_umbrella.obj-2a6c0da06bcfe635c3359593bcad1410.mesh", "res://.godot/imported/detail_umbrella.obj-2a6c0da06bcfe635c3359593bcad1410.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

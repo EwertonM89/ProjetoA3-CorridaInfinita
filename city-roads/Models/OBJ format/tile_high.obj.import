@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b5ddlwy3cf3eu"
+path="res://.godot/imported/tile_high.obj-e2130e1cfe539f7c255dc4e4ae4e4c81.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tile_high.obj-e2130e1cfe539f7c255dc4e4ae4e4c81.mesh"]
+
+source_file="res://city-roads/Models/OBJ format/tile_high.obj"
+dest_files=["res://.godot/imported/tile_high.obj-e2130e1cfe539f7c255dc4e4ae4e4c81.mesh", "res://.godot/imported/tile_high.obj-e2130e1cfe539f7c255dc4e4ae4e4c81.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

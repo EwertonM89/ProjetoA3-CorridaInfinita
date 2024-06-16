@@ -10,15 +10,11 @@ config_version=5
 
 [application]
 
-config/name="ProjetoA3-CorridaInfinita"
+config/name="ProjetoA3-CorridaInfinita2"
+run/main_scene="res://cars/CAR Model.glb"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
-[display]
+[filesystem]
 
-window/size/viewport_width=1920
-window/size/viewport_height=1080
-
-[rendering]
-
-textures/vram_compression/import_etc2_astc=true
+import/fbx/enabled=false
