@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxkj6ocsxi8vs"
 path.s3tc="res://.godot/imported/bridge_pillar.png-bc8aa8d5c89a9fc4af584b87e27b3052.s3tc.ctex"
+path.etc2="res://.godot/imported/bridge_pillar.png-bc8aa8d5c89a9fc4af584b87e27b3052.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://city-roads/Side/bridge_pillar.png"
-dest_files=["res://.godot/imported/bridge_pillar.png-bc8aa8d5c89a9fc4af584b87e27b3052.s3tc.ctex"]
+dest_files=["res://.godot/imported/bridge_pillar.png-bc8aa8d5c89a9fc4af584b87e27b3052.s3tc.ctex", "res://.godot/imported/bridge_pillar.png-bc8aa8d5c89a9fc4af584b87e27b3052.etc2.ctex"]
 
 [params]
 
