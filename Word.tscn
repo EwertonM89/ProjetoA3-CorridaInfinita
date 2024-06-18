@@ -1,4 +1,4 @@
-[gd_scene load_steps=59 format=3 uid="uid://dvxkai165r4qd"]
+[gd_scene load_steps=61 format=3 uid="uid://dvxkai165r4qd"]
 
 [ext_resource type="ArrayMesh" uid="uid://fpj3ku70hjr4" path="res://city-roads/Models/OBJ format/road_drivewayDouble.obj" id="2_sc2hy"]
 [ext_resource type="ArrayMesh" uid="uid://f4bw8somuudt" path="res://city-roads/Models/OBJ format/road_drivewayDoubleBarrier.obj" id="3_xgphk"]
@@ -40,7 +40,9 @@
 [ext_resource type="ArrayMesh" uid="uid://brftqkvlq60tr" path="res://city-commercial/Models/OBJ format/small_buildingC.obj" id="40_r0wnr"]
 [ext_resource type="ArrayMesh" uid="uid://yega6wpokqx2" path="res://city-commercial/Models/OBJ format/small_buildingD.obj" id="41_ouqk1"]
 [ext_resource type="PackedScene" uid="uid://boiduxbied57f" path="res://cars/carro_teste.tscn" id="42_gbhfb"]
+[ext_resource type="Script" path="res://Button.gd" id="42_gqric"]
 [ext_resource type="ArrayMesh" uid="uid://doeov8xrmp4j8" path="res://city-commercial/Models/OBJ format/small_buildingE.obj" id="42_vxopu"]
+[ext_resource type="Script" path="res://Button_pause.gd" id="43_6ga5g"]
 [ext_resource type="Script" path="res://cars/carro_teste.gd" id="43_kpr0a"]
 [ext_resource type="ArrayMesh" uid="uid://4e7j2n7ilsiq" path="res://city-commercial/Models/OBJ format/small_buildingF.obj" id="43_vnbjt"]
 
@@ -145,7 +147,6 @@ mesh = ExtResource("4_2kxeh")
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadCurve8"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RoadCurve8/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConcavePolygonShape3D_khdn8")
 
 [node name="RoadCurveBarrier8" type="MeshInstance3D" parent="."]
@@ -1413,5 +1414,23 @@ mesh = ExtResource("42_vxopu")
 transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, -1190.97, 0, -2271.89)
 mesh = ExtResource("43_vnbjt")
 
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Button_Reset" type="Button" parent="CanvasLayer"]
+offset_left = 33.0
+offset_top = 24.0
+offset_right = 120.0
+offset_bottom = 105.0
+script = ExtResource("42_gqric")
+
+[node name="Button" type="Button" parent="CanvasLayer"]
+process_mode = 3
+offset_left = 959.0
+offset_top = 34.0
+offset_right = 1045.0
+offset_bottom = 119.0
+script = ExtResource("43_6ga5g")
+
 [node name="carro_f1" parent="." instance=ExtResource("42_gbhfb")]
+transform = Transform3D(0.559048, 0, -0.829135, 0, 1, 0, 0.829135, 0, 0.559048, -0.888991, 0, 0.146841)
 script = ExtResource("43_kpr0a")
